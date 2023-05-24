@@ -21,7 +21,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: iiio/blog:latest
+          tags: iiio/despliege-dockerhub:latest
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_TOKEN }}
